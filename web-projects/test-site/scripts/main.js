@@ -2,7 +2,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/foto-dani.JPG') {
-      myImage.setAttribute('src','images/uomo-squilibrato-2.jpg');
+      myImage.setAttribute('src','images/dani-reale.JPG');
     } else {
       myImage.setAttribute('src','images/foto-dani.JPG');
     }
